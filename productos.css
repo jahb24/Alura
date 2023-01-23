@@ -1,0 +1,107 @@
+header{
+    color: grey;
+    text-align: center;
+    background-image: url("../imagenes/imagenes/background.jpeg");
+    background-size: cover;
+    padding: 10px;
+}
+/*
+.menu{
+    width: 940px;Ancho
+    position: relative;Para poder poner la propia posicion con respecto a lo que cambiemos
+}
+nav{
+    position: absolute;Para poder mover los elementos en la página
+    right: 0;Distancia de la derecha
+    top: 10%;Distancia de arriba
+}*/
+nav li{
+    display: inline-block;/*Para poner el texto en linea*/
+    width: 30%;
+    /*margin: 0 10%;/*espaciado arriba, derecha, abajo, izquierda (con 2 es arriba y abajo, izquierdo y derecho)*/
+    box-sizing: border-box;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    /*text-decoration: overline underline;*/
+    text-decoration: none;
+}
+nav a:hover{/*Propiedad para capturar eventos*/
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+}
+.opciones ul{
+    /*width: 940px;*/
+    margin: 0 auto;/*arriba y abajo en 0, izquierda y derecha en auto*/
+    padding: 50px;
+}
+.opciones li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;/*Para poner los espacios extras sin conflictos*/
+    border: 2px solid white;/*width, style, color*/
+    background-color: black;
+    border-radius: 10px 30px 10px 30px;/*en sentido de las manecillas*/
+}
+.opciones li:hover{
+    border-color: purple;
+    background-color: white;
+}
+.opciones li:active{
+    border-color: aquamarine;
+}
+.opciones h2{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.opciones li:hover h2{
+    /*font-size: 33px;*/
+    color: black;
+}
+.descripcion{
+    color: white;
+    font-size: 18px;
+}
+.opciones li:hover .descripcion{
+    color: black;
+}
+.precio{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.opciones li:hover .precio{
+    color: black;
+}
+.cortes{
+    filter: invert();
+    width: 50%;
+}
+.opciones li:hover .cortes{
+    filter: none;
+}
+footer{
+    text-align: center;
+    /*background-image: url("../imagenes/imagenes/bg.jpg");*/
+    background: url(../imagenes/imagenes/bg.jpg);
+    padding: 30px;
+}
+.copy{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
