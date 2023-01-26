@@ -56,8 +56,9 @@ nav a:hover{/*Propiedad para capturar eventos*/
     border-radius: 10px 30px 10px 30px;/*en sentido de las manecillas*/
 }
 .opciones li:hover{
-    border-color: purple;
+    border-color: red;
     background-color: white;
+    border-width: 3px;
 }
 .opciones li:active{
     border-color: aquamarine;
