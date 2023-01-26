@@ -17,7 +17,7 @@ nav{
 }*/
 nav li{
     display: inline-block;/*Para poner el texto en linea*/
-    width: 30%;
+    width: 20%;
     /*margin: 0 10%;/*espaciado arriba, derecha, abajo, izquierda (con 2 es arriba y abajo, izquierdo y derecho)*/
     box-sizing: border-box;
     border-color: white;
