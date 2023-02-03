@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="../Barbería 2/reset.css">
+        <link rel="stylesheet" href="../Barbería 2/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="Menu">
+                <h1><img src="../imagenes/imagenes/logo-blanco.png" id="logo" alt="Logo"></h1><!--alt es de alternativo, por si no se carga la imagen-->
+                <nav>
+                    <ul>
+                        <a href="../index.html"><li>Principal</li></a>
+                        <a href="../Barbería 2/productos.html"><li>Productos</li></a>
+                        <a href="contacto.html"><li>Contacto</li></a>
+                        <a href="https://youtube.com"><li>Vidios</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nya">Nombre y Apellido</label>
+                <input type="text" id="nya" class="input_info" required> <!--required para que sea un campo obligatorio-->
+                
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" id="correo" class="input_info" required placeholder="email@dominio.com">
+                
+                <label for="tel">Teléfono</label>
+                <input type="tel" id="tel" class="input_info" required placeholder="(xx) xxx xxxxxxx">
+                
+                <label for="msg">Mensaje</label>
+                <textarea id="msg" rows="10" required placeholder="Que tal, necesito un corte perro"></textarea>
+
+                <fieldset><!--Es una parte en la que hay datos de un mismo tipo, o bajo un mismo fin-->
+                    <legend>¿Como te contactamos mi chavo?</legend><!--Es una etiqueta que se utiliza dentro de un fieldset para representar el titulo de los datos-->
+                
+                    <label for="rad_em"><input type="radio" name="contacto" value="email" id="rad_em">E-mail</label>
+                    
+
+                    <label for="rad_tel"><input type="radio" name="contacto" value="telefono" id="rad_tel">Teléfono</label>
+                    
+
+                    <label for="rad_wa"><input type="radio" name="contacto" value="whatsapp" id="rad_wa" checked>Whatsapp</label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿En que horario te gustaría?</legend>
+                    <select class="horarios_sel">
+                        <option >Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+                
+
+                <label id="chk">¿Quieres recibir novedades chidas?<input type="checkbox" checked></label><!--Esta es otra forma de poner el input con label-->
+                
+                <input type="submit" value="Enviar Formulario" id="send">
+            </form>
+            <table><!--Tabla-->
+                <thead><!--etiqueta para la primera fila de la tabla-->
+                    <tr><!--fila-->
+                        <th>Días</th><!--Columna de encabezado-->
+                        <th>Opciones</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><br>Lunes</td><!--Columna-->
+                        <td>
+                            Mañana <br><!--salto de linea-->
+                            Tarde <br>
+                            Noche
+                        </td>
+                        <td>
+                            9:00-12:00 <br>
+                            12:00-6:00 <br>
+                            6:00-11:00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br>Martes</td>
+                        <td>
+                            Mañana <br>
+                            Tarde <br>
+                            Noche
+                        </td>
+                        <td>
+                            8:00-12:00 <br>
+                            12:00-6:00 <br>
+                            6:00-10:00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br>Miércoles</td>
+                        <td>
+                            Mañana <br>
+                            Tarde <br>
+                            Noche
+                        </td>
+                        <td>
+                            8:00-12:00 <br>
+                            12:00-6:00 <br>
+                            6:00-10:00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br>Jueves</td>
+                        <td>
+                            Mañana <br>
+                            Tarde <br>
+                            Noche
+                        </td>
+                        <td>
+                            8:00-12:00 <br>
+                            12:00-6:00 <br>
+                            6:00-10:00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br>Viernes</td>
+                        <td>
+                            Mañana <br>
+                            Tarde <br>
+                            Noche
+                        </td>
+                        <td>
+                            7:00-12:00 <br>
+                            12:00-6:00 <br>
+                            6:00-9:00
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot><!--Es el pie de tabla-->
+            </table>
+        </main>
+        <footer>
+            <img src="../imagenes/imagenes/logo-blanco.png" alt="Logo">
+            <p class="copy">&copy Copyright Barbería Alura - 2022</p>
+        </footer>
+    </body>
+</html>

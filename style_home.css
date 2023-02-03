@@ -1,0 +1,58 @@
+body{
+    background: lightsteelblue;
+}
+.Titulo{
+    text-align: center;
+    color: brown;
+    
+}
+#banner{
+    width: 100%;
+    border: 2px solid #FFFFFF;
+}
+h2{
+    text-align: center;
+    background-color: azure;
+    border: 10px solid #000000;
+    padding: 20px;/*márgen del texto con respecto al borde*/
+    margin: 60px;/*márgen con respecto a la pagina*/
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    background:lightblue;
+}
+em strong{/*son etiquetas combinadas*/
+    color: white;
+}
+#negro{
+    color: #000000;
+}
+#dif{
+    color: coral;
+    border: none;
+    margin: auto;
+    background: none;
+}
+
+.items{
+    font-style: italic;
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+.colores{
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+.imgCol{
+    width: 50%;
+}
+.diferenciales{
+    background-image: url("imagenes/diferenciales.jpg");
+    padding: 10px;
+    color: azure;
+}
